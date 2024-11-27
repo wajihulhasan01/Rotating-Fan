@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    animation: faninam linear infinite;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+@keyframes faninam{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#BTNS{
+    display: flex;
+    justify-content: space-around;
+}
+#main{
+display: flex;
+
+}
+button{
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: black;
+}
