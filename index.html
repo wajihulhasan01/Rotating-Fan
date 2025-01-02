@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fan</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Rotating Fan</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ROTATING FAN</h1>
-    <div id="MAIN">
-    <img src="OIP.jpg" alt="" id="img"><DIV id="BTNS"><button onclick="On()">On</button>
-    <button onclick="Off()">Off</button>
-    <button onclick="high()">HIGH</button>
-    <button onclick="medium()">MEDIUM</button>
-    <button onclick="low()">LOW</button></DIV>
+  <div id="main">
+    <div id="fan-container">
+      <img src="Stick.png" alt="Stick" id="stick">
+      <img src="Rotating-Fan4.png" alt="Fan" id="fan">
     </div>
-    <script src="app.js"></script>
+    <div id="btns">
+      <button onclick="onFan()" id="on">ON</button>
+      <button onclick="offFan()" id="off">OFF</button>
+      <button onclick="highFan()" id="high">HIGH</button>
+      <button onclick="mediumFan()" id="med">MEDIUM</button>
+      <button onclick="lowFan()" id="low">LOW</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
